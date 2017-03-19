@@ -6,7 +6,7 @@ Created on Thu Mar  2 10:29:20 2017
 """
 
 class Coordinate(object):
-    def __init___(self,x,y):
+    def __init__(self,x,y):
         self.x = x
         self.y = y
     def distance(self,other):
@@ -17,6 +17,6 @@ class Coordinate(object):
 #        return "<" + str(self.x) + "," + str(self.y) + ">"
         
         
-#c = Coordinate(3,4)
-#origin = Coordinate(0,0)
+c = Coordinate(3,4)
+origin = Coordinate(0,0)
         
